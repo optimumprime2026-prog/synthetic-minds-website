@@ -2,32 +2,32 @@ import { FadeInSection } from '@/components/fade-in-section';
 
 export function ProcessSection() {
   return (
-    <section id="how">
+    <section>
       <FadeInSection className="container split-section">
         <div>
           <p className="eyebrow">How it works</p>
-          <h2>Analyze. Build. Operate.</h2>
+          <h2>Assess. Optimize. Scale.</h2>
         </div>
         <div className="steps">
           <div className="step">
-            <strong>Analyze</strong>
+            <strong>Assess</strong>
             <p>
-              We map your current processes and identify where AI agents
-              can replace manual work.
+              We identify where infrastructure waste, bottlenecks, and cost
+              inefficiencies exist.
             </p>
           </div>
           <div className="step">
-            <strong>Build</strong>
+            <strong>Optimize</strong>
             <p>
-              We design custom AI workflows and deploy agents tailored
-              to your business operations.
+              We improve software performance, automate workflows, and make AI
+              workloads fit for purpose.
             </p>
           </div>
           <div className="step">
-            <strong>Operate</strong>
+            <strong>Scale</strong>
             <p>
-              We continuously manage and optimize your AI systems.
-              We don't just build — we run them.
+              We help deploy the right infrastructure once the software and
+              economics are aligned.
             </p>
           </div>
         </div>

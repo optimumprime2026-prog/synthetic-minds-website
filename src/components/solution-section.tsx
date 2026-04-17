@@ -2,36 +2,32 @@ import { FadeInSection } from '@/components/fade-in-section';
 
 const solutions = [
   {
-    title: 'Administrative Automation',
-    body: 'Invoicing, contracting, procurement, and internal workflows — your back office runs itself.',
+    title: 'AI Agents as a Service',
+    body: 'Automate repetitive workflows and create immediate productivity gains.',
   },
   {
-    title: 'Marketing Automation',
-    body: 'Content creation in your brand voice, automated scheduling and distribution. Your marketing never stops.',
+    title: 'Compute Optimization Services',
+    body: 'Identify bottlenecks, reduce compute cost, and refactor workloads for better performance.',
   },
   {
-    title: 'Lead Generation',
-    body: 'Outbound campaigns, targeting and qualification, pipeline building. A steady flow of qualified leads.',
-  },
-  {
-    title: 'Lead Nurturing',
-    body: 'Automated follow-ups, AI-driven conversations, qualification until sales-ready. No lead is ever lost.',
+    title: 'Optimized Enterprise Infrastructure',
+    body: 'Design and deliver NVIDIA-based environments once workloads are ready to scale.',
   },
 ];
 
 export function SolutionSection() {
   return (
-    <section id="services">
+    <section id="solutions">
       <FadeInSection className="container section-heading">
-        <p className="eyebrow">What we do</p>
-        <h2>Replace manual work with AI systems that run your business.</h2>
+        <p className="eyebrow">Solution</p>
+        <h2>We optimize the full stack.</h2>
         <p>
-          We design, build, and operate custom AI agents that automate key
-          business workflows — from operations to marketing and sales.
+          Synthetic Minds connects software, compute optimization, and
+          infrastructure into one integrated model.
         </p>
       </FadeInSection>
 
-      <FadeInSection className="container card-grid four-up">
+      <FadeInSection className="container card-grid three-up">
         {solutions.map((item) => (
           <article className="card card-accent" key={item.title}>
             <h3>{item.title}</h3>

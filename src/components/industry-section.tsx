@@ -1,30 +1,34 @@
 import { FadeInSection } from '@/components/fade-in-section';
 
-const services = [
+const industries = [
   {
-    title: 'AI Business Operations',
-    body: 'Custom AI agents that automate admin, marketing, lead gen, and sales for startups and scale-ups.',
+    title: 'Healthcare',
+    body: 'Reliable AI systems and infrastructure for high-stakes operational environments.',
   },
   {
-    title: 'Workshop & Garage',
-    body: 'Professional automotive maintenance and repairs in Estepona, Spain. Online booking, fully automated operations.',
+    title: 'Pharmaceutical & Life Sciences',
+    body: 'Compute-efficient support for research, modelling, and data-intensive innovation.',
   },
   {
-    title: 'Racing & Radical',
-    body: 'Radical vehicle sales, race events across Andalusia, roadtrips and rallies for driving enthusiasts.',
+    title: 'Food & Agriculture',
+    body: 'Optimization for emerging AI and infrastructure use cases across the value chain.',
+  },
+  {
+    title: 'Government & Universities',
+    body: 'Secure, reliable, and scalable environments for public and research-driven organizations.',
   },
 ];
 
 export function IndustrySection() {
   return (
-    <section>
+    <section id="industries">
       <FadeInSection className="container section-heading">
-        <p className="eyebrow">Three pillars</p>
-        <h2>Performance in everything we do.</h2>
+        <p className="eyebrow">Industries</p>
+        <h2>Built for sectors where performance, continuity, and trust matter.</h2>
       </FadeInSection>
 
-      <FadeInSection className="container card-grid three-up">
-        {services.map((item) => (
+      <FadeInSection className="container card-grid four-up">
+        {industries.map((item) => (
           <article className="card" key={item.title}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>

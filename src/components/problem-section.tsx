@@ -2,20 +2,20 @@ import { FadeInSection } from '@/components/fade-in-section';
 
 const problems = [
   {
-    title: 'Too much manual work',
-    body: 'Teams spend hours on admin, follow-ups, and repetitive tasks instead of growing the business.',
+    title: 'Rising compute costs',
+    body: 'AI is becoming more expensive to run as models and data volumes grow.',
   },
   {
-    title: 'No scalable marketing',
-    body: 'Content creation, posting, and lead generation are inconsistent and time-consuming.',
+    title: 'Limited infrastructure visibility',
+    body: 'Most companies do not know whether they are compute-bound, memory-bound, or I/O-bound.',
   },
   {
-    title: 'Can\'t afford full teams',
-    body: 'Hiring for operations, marketing, and sales burns through limited startup cash.',
+    title: 'GPU scarcity',
+    body: 'The era of solving performance problems by simply buying more compute is ending.',
   },
   {
-    title: 'Fragmented tools',
-    body: 'Disconnected systems and workflows create inefficiency and lost opportunities.',
+    title: 'Business-critical AI risk',
+    body: 'When AI systems become essential to operations, inefficiency and fragility become unacceptable.',
   },
 ];
 
@@ -23,12 +23,12 @@ export function ProblemSection() {
   return (
     <section>
       <FadeInSection className="container section-heading">
-        <p className="eyebrow">The problem</p>
-        <h2>Growing fast is hard when your team is buried in manual work.</h2>
+        <p className="eyebrow">Problem</p>
+        <h2>AI demand is growing. Compute is becoming the bottleneck.</h2>
         <p>
-          Most startups and scale-ups waste time and money on operational tasks
-          that should be automated. The result: slow growth, high costs, and
-          missed opportunities.
+          As AI workloads become more compute-intensive and business-critical,
+          many organizations face rising infrastructure costs, limited
+          visibility, and growing pressure on internal systems.
         </p>
       </FadeInSection>
 
