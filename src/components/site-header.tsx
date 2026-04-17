@@ -1,18 +1,20 @@
+import Image from 'next/image';
+
 export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container nav">
         <a className="brand" href="/">
-          Synthetic Minds
+          <Image src="/logo.png" alt="MM Workshop" width={120} height={40} priority />
         </a>
         <nav>
-          <a href="/solutions">Solutions</a>
-          <a href="/industries">Industries</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+          <a href="#services">Services</a>
+          <a href="#how">How it works</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </nav>
-        <a className="button button-primary" href="/contact">
-          Book a call
+        <a className="button button-primary" href="#contact">
+          Get started
         </a>
       </div>
     </header>

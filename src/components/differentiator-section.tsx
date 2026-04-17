@@ -1,10 +1,10 @@
 import { FadeInSection } from '@/components/fade-in-section';
 
 const differentiators = [
-  'Full-stack approach across automation, optimization, refactoring, and infrastructure',
-  'NVIDIA-oriented infrastructure thinking',
-  'Commercial and technical depth',
-  'Relevant vertical access in healthcare, pharma, government, and related sectors',
+  'Deep AI expertise — we build and operate the systems, not just advise',
+  'Low upfront cost with equity participation — fully aligned incentives',
+  'Experienced entrepreneurs who understand scaling challenges firsthand',
+  'Based in Andalusia with a strong local founder network',
 ];
 
 export function DifferentiatorSection() {
@@ -12,8 +12,8 @@ export function DifferentiatorSection() {
     <section>
       <FadeInSection className="container split-section">
         <div>
-          <p className="eyebrow">Why Synthetic Minds</p>
-          <h2>Most providers focus on either AI workflows or infrastructure. We connect both.</h2>
+          <p className="eyebrow">Why MM Workshop</p>
+          <h2>Not just technology — real business impact.</h2>
         </div>
         <ul className="bullet-list">
           {differentiators.map((item) => (

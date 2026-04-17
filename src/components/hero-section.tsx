@@ -11,19 +11,19 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <p className="eyebrow">The Full-Stack Compute Efficiency Company</p>
-          <h1>Make AI economically sustainable and operationally scalable.</h1>
+          <p className="eyebrow">Driving Performance</p>
+          <h1>Your first AI team that never stops working.</h1>
           <p className="hero-copy">
-            Synthetic Minds helps organizations reduce AI infrastructure waste,
-            optimize compute performance, and scale intelligent systems with
-            confidence.
+            MM Workshop helps startups and scale-ups accelerate growth by
+            building and operating AI-powered business systems. Less manual
+            work, lower costs, higher output.
           </p>
           <div className="button-row">
             <a className="button button-primary" href="#contact">
-              Book a call
+              Get started
             </a>
-            <a className="button button-secondary" href="#contact">
-              Request a consultation
+            <a className="button button-secondary" href="#services">
+              See what we do
             </a>
           </div>
         </motion.div>
@@ -35,11 +35,11 @@ export function HeroSection() {
           transition={{ duration: 0.65, ease: 'easeOut', delay: 0.08 }}
         >
           <div className="hero-panel-inner">
-            <p>Assess</p>
+            <p>Workshop</p>
             <span />
-            <p>Optimize</p>
+            <p>Racing</p>
             <span />
-            <p>Scale</p>
+            <p>AI Operations</p>
           </div>
         </motion.div>
       </div>
